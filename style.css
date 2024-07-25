@@ -1,11 +1,16 @@
 body {
     font-family: "Raleway";
-    margin: 0 auto;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     overflow-y: scroll;
 }
-
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 .header {
     color: #ffffff;
     display: flex;
@@ -19,11 +24,11 @@ body {
 }
 
 .header-list {
-    text-decoration: none;
     color: #FFFFFF;
-    margin-right: 40px;
+    margin-right: 95px;
     display: flex;
     padding: 0;
+    width: 57px;
 }
 
 .header-list:hover {
@@ -31,15 +36,7 @@ body {
 }
 
 .header-item {
-    text-decoration: none;
     display: flex;
-}
-
-
-
-
-li {
-    list-style-type: none;
 }
 
 .hero-container {
@@ -47,7 +44,8 @@ li {
     justify-content: space-evenly;
     align-items: center;
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
 }
@@ -58,15 +56,13 @@ li {
     text-transform: capitalize;
     color: #000;
     width: 500px;
-    height: 20px;
-    margin-bottom: 165px;
-    margin-top: 20px;
 }
 
 .a-button {
     font-family: "Oswald", sans-serif;
     text-align: center;
     display: block;
+
     border-radius: 5px;
     padding: 15px 80px;
     width: 205px;
@@ -76,27 +72,25 @@ li {
     font-size: 18px;
     letter-spacing: 0.06em;
     color: #000;
-    text-decoration: none;
 
 
+}
+
+.about-title {
+    width: 430px;
 }
 
 .about-us {
     justify-content: space-between;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     background-color: #EFEFEF;
 }
-.section-container{
+
+.section-container {
     display: flex;
     align-items: center
 }
 
-.text-A {
-    max-width: 600px;
-    padding-top: 70px;
-    margin-right: 200px;
-    align-items: center;
-}
 
 .text-1 {
     margin-bottom: 15px;
@@ -114,7 +108,6 @@ li {
     font-size: 18px;
     letter-spacing: 0.06em;
     color: #000;
-    text-decoration: none;
     margin-top: 60px;
 }
 
@@ -142,6 +135,10 @@ li {
 
 }
 
+.img-section {
+    margin-right: 75px;
+}
+
 .list-item-space {
     margin-bottom: 50px;
 }
@@ -156,10 +153,11 @@ li {
 
 .text-item {
     font-size: 31px;
+    width: 288px;
 }
 
 .service-section {
-    margin-top: 120px;
+    padding-top: 120px;
     background-color: #EFEFEF;
 }
 
@@ -206,8 +204,6 @@ li {
     width: 400px;
     height: 50px;
     margin-top: 45px;
-    text-decoration: none;
-
     font-weight: 600;
     font-size: 24px;
     color: #000;
@@ -222,10 +218,18 @@ li {
 .footer-container {
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 150px;
+}
+
+.footer-img {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 151px;
 }
 
 .footer-text {
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    margin-right: 151px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
